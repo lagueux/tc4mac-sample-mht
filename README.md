@@ -43,13 +43,15 @@ tc4mac gates its dialogs on what a plugin declares, so leaving it out means
 the user is never offered an "add" that quietly rebuilds their file. Declare
 what the format can do, not what would be convenient.
 
-## Status
+## Installing it
 
-The format engine and its tests are complete. The executable shell — the
-`main.swift` that answers the host's packer requests over the plugin wire —
-lands once `PluginWire` covers the packer methods; today it speaks the
-file-system ones. Until then this builds and tests as a library, which is
-also the honest way to develop a format: get the parser right first.
+```
+./make-plugin.sh
+```
+
+That builds `MHT.tcplugin`. In tc4mac open **Configuration ▸ Plugins ▸
+Install…**, choose the bundle, then switch it on. `.mht` files then open in
+a panel like any other archive, and the Pack dialog can create them.
 
 ## Licence
 

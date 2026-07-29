@@ -7,10 +7,10 @@ let package = Package(
     name: "MhtPlugin",
     platforms: [.macOS(.v15)],
     dependencies: [
-        .package(url: "https://github.com/lagueux/tc4mac-plugin-sdk.git", from: "1.0.0")
+        .package(url: "https://github.com/lagueux/tc4mac-plugin-sdk.git", from: "1.1.0")
     ],
     targets: [
-        .target(
+        .executableTarget(
             name: "MhtPlugin",
             dependencies: [.product(name: "TCPluginSDK", package: "tc4mac-plugin-sdk")]),
         .testTarget(name: "MhtPluginTests", dependencies: ["MhtPlugin"])
