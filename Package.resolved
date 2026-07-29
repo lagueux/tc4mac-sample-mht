@@ -1,13 +1,13 @@
 {
-  "originHash" : "14f6fee3d32f3778ef9199b7b483bd734f538f06c4b32a5e01d0fb57638ce1ce",
+  "originHash" : "9bfa8e5fe4dcf2209317d363dea0139abce6c0934f75f6de7340f19ce53734f2",
   "pins" : [
     {
       "identity" : "tc4mac-plugin-sdk",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/lagueux/tc4mac-plugin-sdk.git",
       "state" : {
-        "revision" : "8244935971818ef47f7287f6842a4a7caf5dd0a2",
-        "version" : "1.1.0"
+        "revision" : "6f56582a051a3e6d3ede61a80b355e0fd7e84a1c",
+        "version" : "1.1.1"
       }
     }
   ],
